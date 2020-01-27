@@ -1,0 +1,53 @@
+
+.education .sub_education {
+display: flex;
+justify-content: space-between;
+ box-shadow: 4px 4px 4px white;
+}
+.PG , .gradu , .senior_school, .school {
+    flex: 1;
+    box-shadow: 4px 4px 4px black;
+    font-size: 14px;
+    /* background-color: gray; */
+    color: white;
+    margin-left: 12px;
+    margin-right: 10px;
+    padding: 10px;
+    position: relative;
+    display: block;
+}
+.PG:after , .gradu:after , .senior_school:after, .school:after {
+    content: "";
+    position: absolute;
+    display: block;
+    left: 0%;
+    top: 20%;
+    width: 100%;
+    border-bottom: 1px solid white;
+}
+@media(max-width:568px) {
+    .education .sub_education {
+       display: block;
+        }
+  }
+  @media(min-width:569px) and (max-width:768px) {
+    .education .sub_education {
+       display: block;
+        }
+  }
+  @media(min-width:769px) and (max-width:992px) {
+    .education .sub_education {
+       display: block;
+        }
+        .inner_sub {
+            display: flex;
+        }
+  }
+  @media(min-width:993px){
+    .education .sub_education {
+       display: flex;
+        }
+        .inner_sub {
+            display: flex;
+        }
+  }

@@ -1,0 +1,37 @@
+.socialable  {
+    text-align: center;
+    margin-top: 10px;
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    }
+    .socialable .social_links {
+    
+    }
+    .socialable .social_links ul {
+    
+    }
+    .socialable .social_links ul li {
+    display: inline-block;
+    color: white;
+    margin-left: 20px;
+    font-size: 20px;
+    }
+    .socialable .social_links ul li:hover {
+        color: gray;
+    }
+
+    @media(max-width:568px) {
+        .socialable .social_links ul li {
+            display: block;
+            font-size: 12px;
+            margin-top: 5px;
+            }
+      }
+      @media(min-width:569px) and (max-width:768px) {
+        .socialable .social_links ul li {
+            display: block;
+            font-size: 12px;
+            margin-top: 5px;
+            }
+      }

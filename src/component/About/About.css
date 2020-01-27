@@ -1,0 +1,46 @@
+.about_main {
+    display: flex;
+    /* padding-top: 50px;
+    padding-bottom: 50px; */
+    box-sizing: border-box;
+}
+.sub_about_skill , .sub_about_job {
+    display: block;
+    /* background-color: teal; */
+    padding: 20px;
+    margin: 10px;
+    flex: 1;
+    box-shadow: 4px 4px 4px gray;
+    letter-spacing: 1px;
+    color: white;
+    box-sizing: border-box;
+}
+.about_heading {
+    position: relative;
+    padding-bottom: 15px;
+    margin: 0;
+    display: block;
+    margin-bottom: 15px;
+}
+.about_heading:after {
+    position: absolute;
+    content: "";
+    left: -3%;
+    top: 100%;
+    /* height: 100%; */
+    width: 105%;
+    border-bottom: 1px solid gray;
+    z-index: 10;
+    display: block;
+}
+
+@media(max-width:568px) {
+    .about_main {
+        display: block;
+    }
+}
+@media(min-width:569px) and (max-width:768px) {
+    .about_main {
+        display: block;
+    }
+}

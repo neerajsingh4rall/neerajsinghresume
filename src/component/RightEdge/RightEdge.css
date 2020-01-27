@@ -1,0 +1,111 @@
+.ritege {
+    /* width: 340px; */
+    /* background-color: lemonchiffon; */
+}
+.sub_section_ritege {
+    /* background-color: lightcoral; */
+    border: 1px solid lightgray;
+    width: 88%;
+    margin-left: 15px;
+    margin-top: 15px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 4px 4px 4px gray;
+}
+.head {
+    color: lightgray;
+}
+.box {
+    display: flex;
+    border: 1px solid lightgray;
+    width: 100%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    margin-bottom: 2%;
+}
+.box_image {
+    width: 120px;
+    height: 50px;
+}
+.w-100 {
+    width: 100%;
+    height: 100%;
+}
+.box_cont {
+    position: relative;
+    width: 100%;
+}
+.box_10:after {
+    content: "node";
+    position: absolute;
+    background-color: #81BE04;
+    width: 70%;
+    padding: 10px;
+    left: 5%;
+    top: 11%;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase !important; 
+}
+.box_7:after {
+    content: "express";
+    position: absolute;
+    background-color: rgb(240, 240, 137);
+    width: 60%;
+    padding: 10px;
+    left: 5%;
+    top: 11%;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase !important; 
+}
+.box_6:after {
+    content: "mongodb";
+    position: absolute;
+    background-color: #3F2E1E;
+    width: 50%;
+    padding: 10px;
+    left: 5%;
+    top: 11%;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase !important; 
+}
+.box_5:after {
+    content: "mongoose";
+    position: absolute;
+    background-color: #840400;
+    width: 40%;
+    padding: 10px;
+    left: 5%;
+    top: 11%;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase !important; 
+}
+
+@media(max-width:406px) { 
+    .sub_section_ritege {
+        width: 81%;
+       
+    }
+}
+@media(min-width:407px) and (max-width:568px) {
+    .sub_section_ritege {
+        width: 86%;
+       
+    }
+  }
+  @media(min-width:569px) and (max-width:768px) {
+    .sub_section_ritege {
+        width: 89%;
+       
+    }
+  }
+  @media(min-width:769px) and (max-width:992px) {
+    .sub_section_ritege {
+        width: 85%;
+       
+    }
+  }

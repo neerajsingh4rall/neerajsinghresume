@@ -1,0 +1,33 @@
+.project {
+    box-sizing: border-box;
+}
+.project .main_sec {
+display: flex;
+width: 100%;
+}
+.project .main_sec .pro_one , .project .main_sec .two {
+box-shadow: 4px 4px 4px gray;
+width: 50%;
+color: white;
+padding: 10% 10%;
+margin: 20px;
+border-radius: 2%;
+}
+
+@media(max-width:568px) {
+    .project .main_sec {
+        display: block;
+        }
+        .project .main_sec .pro_one , .project .main_sec .two {
+            width: 72%;
+            }
+  }
+  @media(min-width:569px) and (max-width:768px) {
+    .project .main_sec {
+        display: block;
+        }
+        .project .main_sec .pro_one , .project .main_sec .two {
+            width: 75%;
+            }
+  }
+

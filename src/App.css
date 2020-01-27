@@ -1,0 +1,139 @@
+.component {
+  width: 100%;
+  text-transform: capitalize;
+  font-weight: bold;
+  box-sizing: border-box;
+  font-family: 'Inconsolata', monospace;
+  background-color: black;
+}
+a {
+  color: brown;
+}
+.body {
+background-color: white;
+padding-top: 20px;
+padding-bottom: 20px;
+box-sizing: border-box;
+}
+.navigation {
+  height: 50px;
+  width: 100%;
+  background-color: yellow;
+  margin: 0;
+}
+.buger {
+  background-color: #14193E;
+  height: 120%;
+  display: block;
+  padding-top: 10px;
+  padding-left: 10px;
+  margin: 0px;
+}
+.header {
+  margin-top: -10px;
+}
+.main_heading {
+  display: block;
+  margin-left: 1%;
+  color: rgb(48, 95, 165);
+  letter-spacing: 2px;
+  font-weight: bold;
+  position: relative;
+}
+.main_heading:after {
+  content: "";
+  position: absolute;
+  left: 0%;
+  top: 100%;
+  border-bottom: 10px solid red;
+  width: 3%;
+}
+.body .main {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+.middle {
+  flex: 1;
+}
+.leftedge {
+flex: 1;
+}
+.rightedge {
+  flex: 1;
+}
+.about_app {
+  background-image: url('../src/Images/about.jpg');
+  background-color: gray;
+  background-size: 100% 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.tec_app {
+  /* background-image: url('../src/Images/tec.png'); */
+  background-color: #30383A;
+  background-size: 100% 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.project_app {
+  background-image: url('../src/Images/project.png');
+  background-color: gray;
+  background-size: 100% 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.education_app {
+  background-image: url('../src/Images/education.jpg');
+  background-color: green;
+  background-size: 100% 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.contect_app {
+  background-image: url('../src/Images/contact.jpg');
+  background-color: gray;
+  background-size: 100% 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+@media(max-width:568px) {
+  .body .main {
+    display: block;
+  }
+  .component {
+    width: 100%;
+  }
+}
+@media(min-width:0px) and (max-width:768px) {
+  .navBar {
+    display: none;
+  }
+}
+@media(min-width:569px) and (max-width:768px) {
+  .body .main {
+    display: block;
+  }
+  .component {
+    width: 100%;
+  }
+  
+}
+@media(min-width:769px) {
+  .burger {
+    display: none;
+  }
+}

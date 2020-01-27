@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/neerajsingh4rall.github.io/neerajsinghwebresume.git/static/css/main.cc32b6f7.chunk.css",
+    "main.js": "/neerajsingh4rall.github.io/neerajsinghwebresume.git/static/js/main.2731931b.chunk.js",
+    "main.js.map": "/neerajsingh4rall.github.io/neerajsinghwebresume.git/static/js/main.2731931b.chunk.js.map",
+    "runtime-main.js": "/neerajsingh4rall.github.io/neerajsinghwebresume.git/static/js/runtime-main.65516aa0.js",
+    "runtime-main.js.map": "/neerajsingh4rall.github.io/neerajsinghwebresume.git/static/js/runtime-main.65516aa0.js.map",
+    "static/js/2.02899272.chunk.js": "/neerajsingh4rall.github.io/neerajsinghwebresume.git/static/js/2.02899272.chunk.js",
+    "static/js/2.02899272.chunk.js.map": "/neerajsingh4rall.github.io/neerajsinghwebresume.git/static/js/2.02899272.chunk.js.map",
+    "index.html": "/neerajsingh4rall.github.io/neerajsinghwebresume.git/index.html",
+    "precache-manifest.1757d2c9d1f38fe100af9f06cfa99bbc.js": "/neerajsingh4rall.github.io/neerajsinghwebresume.git/precache-manifest.1757d2c9d1f38fe100af9f06cfa99bbc.js",
+    "service-worker.js": "/neerajsingh4rall.github.io/neerajsinghwebresume.git/service-worker.js",
+    "static/css/main.cc32b6f7.chunk.css.map": "/neerajsingh4rall.github.io/neerajsinghwebresume.git/static/css/main.cc32b6f7.chunk.css.map",
+    "static/js/2.02899272.chunk.js.LICENSE": "/neerajsingh4rall.github.io/neerajsinghwebresume.git/static/js/2.02899272.chunk.js.LICENSE",
+    "static/media/ExpressJS.png": "/neerajsingh4rall.github.io/neerajsinghwebresume.git/static/media/ExpressJS.8587dd06.png",
+    "static/media/App.css": "/neerajsingh4rall.github.io/neerajsinghwebresume.git/static/media/project.dd4dfa97.png",
+    "static/media/Header.css": "/neerajsingh4rall.github.io/neerajsinghwebresume.git/static/media/bgImg.9e7f4dad.jpg",
+    "static/media/bootstrap.png": "/neerajsingh4rall.github.io/neerajsinghwebresume.git/static/media/bootstrap.cfecb2da.png",
+    "static/media/css.jpg": "/neerajsingh4rall.github.io/neerajsinghwebresume.git/static/media/css.4af8745e.jpg",
+    "static/media/html-5.png": "/neerajsingh4rall.github.io/neerajsinghwebresume.git/static/media/html-5.334a35d3.png",
+    "static/media/logo.jpg": "/neerajsingh4rall.github.io/neerajsinghwebresume.git/static/media/logo.4c659ccc.jpg",
+    "static/media/mongodb.jpg": "/neerajsingh4rall.github.io/neerajsinghwebresume.git/static/media/mongodb.f13e2176.jpg",
+    "static/media/mongoose.jpg": "/neerajsingh4rall.github.io/neerajsinghwebresume.git/static/media/mongoose.38b4764b.jpg",
+    "static/media/node.png": "/neerajsingh4rall.github.io/neerajsinghwebresume.git/static/media/node.97015d8f.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.65516aa0.js",
+    "static/js/2.02899272.chunk.js",
+    "static/css/main.cc32b6f7.chunk.css",
+    "static/js/main.2731931b.chunk.js"
+  ]
+}
